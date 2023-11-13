@@ -72,18 +72,6 @@ DATABASES = {
     }
 }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'djongo',
-#         'NAME': 'logging',
-#         'ENFORCE_SCHEMA': False,
-#         'CLIENT': {
-#                 'host': 'mongodb+srv://woldman:yBpBXL6EbhnEq3j7@clustertw.la1gj14.mongodb.net'
-#         }
-#     }
-# }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
 
