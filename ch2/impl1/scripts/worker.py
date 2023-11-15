@@ -27,6 +27,7 @@ def callback(ch, method, properties, body):
 
 
 def run():
+    print("Waiting for email requests")
     channel.basic_qos(prefetch_count=1)
     channel.basic_consume(queue='mail_queue', on_message_callback=callback)
 
