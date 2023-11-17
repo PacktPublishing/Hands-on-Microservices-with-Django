@@ -12,15 +12,15 @@ channel.queue_declare(queue='message_queue', durable=True)
 
 
 def callback(ch, method, properties, body):
-    message = json.loads(body)
-    # sleep(10)
-    print(f"Dear {message['name']}\n\nWe'll include your suggestion – {message['suggestion']} – into our improvement process.\n\nThanks for your contribution!\n\n------\n\n")
+    task_message = json.loads(body)
+
+    sleep(10)
 
     send_mail(
         "Your suggestion",
-        f"We'll include your suggestion – {message['suggestion']} – into our improvement process.\n\nThanks for your contribution!",
+        f"We'll include your suggestion – {task_message['suggestion']} – into our improvement process.\n\nThanks for your contribution!",
         "quality@xyz.com",
-        [message['email']],
+        [task_message['email']],
         fail_silently=False,
     )
     ch.basic_ack(delivery_tag=method.delivery_tag)
