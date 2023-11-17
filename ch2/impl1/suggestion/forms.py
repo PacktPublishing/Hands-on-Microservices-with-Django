@@ -1,6 +1,6 @@
 from django import forms
 
-from suggestion.producer import send_email_message
+from suggestion.producer import send_email_task_message
 
 
 class SuggestionForm(forms.Form):
@@ -11,9 +11,9 @@ class SuggestionForm(forms.Form):
     )
 
     def send_email(self):
-        message = {
+        task_message = {
             "name": self.cleaned_data["name"],
             "email": self.cleaned_data["email"],
             "suggestion": self.cleaned_data["suggestion"]
         }
-        send_email_message(message)
+        send_email_task_message(task_message)
