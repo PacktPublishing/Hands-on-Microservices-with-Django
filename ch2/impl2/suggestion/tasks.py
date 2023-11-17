@@ -14,9 +14,3 @@ def send_email_task(name, email_address, suggestion):
         [email_address],
         fail_silently=False,
     )
-
-
-@shared_task
-def write_log(suggestion):
-    log_msg = LogItem(message=suggestion)
-    log_msg.save()
