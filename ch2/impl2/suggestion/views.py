@@ -11,7 +11,6 @@ class SuggestionFormView(FormView):
 
     def form_valid(self, form):
         form.send_email()
-        form.write_log_message()
         return super().form_valid(form)
 
 
