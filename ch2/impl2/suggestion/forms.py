@@ -1,5 +1,5 @@
 from django import forms
-from suggestion.tasks import send_email_task, write_log
+from suggestion.tasks import send_email_task
 
 
 class SuggestionForm(forms.Form):
@@ -13,6 +13,3 @@ class SuggestionForm(forms.Form):
         send_email_task.delay(
             self.cleaned_data["name"], self.cleaned_data["email"], self.cleaned_data["suggestion"]
         )
-
-    def write_log_message(self):
-        write_log.delay(self.cleaned_data["suggestion"])
