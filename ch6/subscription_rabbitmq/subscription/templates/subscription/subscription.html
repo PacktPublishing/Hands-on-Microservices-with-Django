@@ -1,0 +1,14 @@
+{% extends 'subscription/base.html' %}
+
+{% block content %}
+
+<h2>Enter the address where we can deliver your magazine</h2>
+
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Subscribe" />
+</form>
+
+{% endblock content %}
