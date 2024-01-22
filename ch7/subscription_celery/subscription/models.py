@@ -2,7 +2,6 @@ from djongo import models
 
 
 class Address(models.Model):
-    id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=120, blank=True)
     address = models.CharField(max_length=120, blank=True)
     postalcode = models.CharField(max_length=15, blank=True)
