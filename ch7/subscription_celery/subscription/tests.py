@@ -103,7 +103,7 @@ class MatchTest(unittest.TestCase):
         for last in self.col.find().sort('id', -1).limit(1):
             self.assertEqual(last['id'], self.__class__.last_id)
 
-    def test_postalcodee_max(self):
+    def test_postalcode_max(self):
         task_message = {"name": "C. Cortez",
                         "address": "Down Under 1",
                         "postalcode": "X2345678901234567890",
