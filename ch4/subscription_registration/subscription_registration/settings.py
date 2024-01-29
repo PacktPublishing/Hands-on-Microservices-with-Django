@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'Subscription',
         'ENFORCE_SCHEMA': False,
         'CLIENT': {
-                'host': 'mongodb+srv://django-microservice:Ue4fK0VuKavclfbo@cluster0.yjchpyg.mongodb.net'
+                'host': 'mongodb+srv://django-microservice:<password>@<cluster>'
         }
     }
 }
