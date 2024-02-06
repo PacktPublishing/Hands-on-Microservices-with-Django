@@ -14,6 +14,7 @@ prompt-toolkit==3.0.41
 pymongo==3.12.3
 python-dateutil==2.8.2
 pytz==2023.3.post1
+redis==5.0.1
 six==1.16.0
 sqlparse==0.2.4
 tzdata==2023.3
