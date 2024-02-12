@@ -1,0 +1,16 @@
+{% extends 'subscription/base.html' %}
+
+{% block content %}
+
+<h1 name="success_header">Thanks!</h1>
+
+<p>You'll receive the latest edition of our magazine within three days.</p>
+<p>Maybe you're also interested in our other magazines:</p>
+
+{% for magazine in magazines %}
+<ul>
+  <li><b>{{magazine.title}}</b><br/>{{magazine.description}}</li>
+</ul>
+{% endfor %}
+
+{% endblock content %}
