@@ -39,7 +39,7 @@ def match_address_task(address):
 
 
 @shared_task
-def send_email_task(name, email):
+def send_email_task(name, street, email):
     send_mail(
         "Your subscription",
         f"Dear {name},\n\nThanks for subscribing to our magazine!\n\nWe registered the subscription at this address:\n{street}.\n\nAnd you'll receive the latest edition of our magazine within three days.\n\nCM Publishers",
