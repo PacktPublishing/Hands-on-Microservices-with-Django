@@ -124,8 +124,8 @@ class MatchTest(unittest.TestCase):
 class MailTest(unittest.TestCase):
     # Happy path test
     def test_send_email(self):
-        send_email_task.delay("D. Dhozos", "dhozos@upside.com")
+        send_email_task.delay("D. Dhozos", "Street 1", "dhozos@upside.com")
 
     # Error guessing test
     def test_empty_name(self):
-        send_email_task.delay("", "empty@upside.com")
+        send_email_task.delay("", "Road 2", "empty@upside.com")
