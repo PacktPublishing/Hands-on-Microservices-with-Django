@@ -1,0 +1,17 @@
+services:
+  web:
+    container_name: subscription_app
+    build: .
+    ports:
+      - 8000:8000
+  
+  redis:
+    container_name: redis_celery
+    image: redis
+  
+  worker:
+    container_name: celery_worker
+    build: .
+    entrypoint: celery
+    command: -A subscription_celery worker --loglevel=info    
+      
