@@ -1,10 +1,14 @@
 import os
 
+from django.core.cache import cache
+from django.views.decorators.cache import cache_page
+from django.utils.decorators import method_decorator
 from django.views.generic.base import TemplateView
 from django.views.generic.edit import FormView
 from dotenv import load_dotenv
 from subscription.forms import SubscriptionForm
 from subscription.tasks import match_address_task
+from .models import Magazine
 
 load_dotenv()
 
@@ -33,3 +37,11 @@ class SubscriptionFormView(FormView):
 
 class SuccessView(TemplateView):
     template_name = "subscription/success.html"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        magazines = cache.get("magazines")
+
+        # magazines = Magazine.objects.all()
+        context['magazines'] = magazines
+        return context
