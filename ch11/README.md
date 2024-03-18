@@ -1,1 +1,1 @@
-### Chapter 11, Improving Microservices Performance With Caching
+### Chapter 11, Best Practices for Microservices
