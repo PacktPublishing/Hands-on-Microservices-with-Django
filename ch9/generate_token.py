@@ -3,7 +3,7 @@ import jwt
 
 def create_jwt(payload_to_encode):
     jwt_token = jwt.encode(payload=payload_to_encode,
-                           key='Logic takes you from a to b, imagination takes you everywhere',
+                           key='<key_phrase>',
                            algorithm='HS256')
     return jwt_token
 
