@@ -2,4 +2,4 @@
 
 #### Guidance
 - `pymongo-mongodb` directory: replace `<password>` and `<cluster>` in the Python scripts with your values.
-- `subscription_registration` directory: replace `<password>` and `<cluster>` in `settings.py` with your values.
+- `subscription_registration/subscription_registration/settings.py`: replace `<password>` and `<cluster>` with your values.
