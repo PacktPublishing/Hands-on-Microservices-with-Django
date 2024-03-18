@@ -13,7 +13,7 @@ def write_logitem(application, logmessage):
     sleep(5)
     now = datetime.datetime.now()
 
-    uri = "mongodb+srv://django-microservice:Ue4fK0VuKavclfbo@cluster0.yjchpyg.mongodb.net/?retryWrites=true&w=majority"
+    uri = "mongodb+srv://django-microservice:<password>@<cluster>/?retryWrites=true&w=majority"
     client = MongoClient(uri, server_api=ServerApi('1'))
     subscription_db = client["Subscription"]
     logitem_col = subscription_db["subscription_logitem"]
