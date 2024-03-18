@@ -1,4 +1,5 @@
-## Chapter 4 - Cloud-native Data Processing with MongoDB
+### Chapter 4 - Cloud-native Data Processing with MongoDB
 
-### Guidance
-- Replace `<>` and `<>` in `settings.py` with your values.
+#### Guidance
+- `pymongo-mongodb` directory: replace `<password>` and `<cluster>` in the Python scripts.
+- `subscription_registration` directory: replace `<password>` and `<cluster>` in `settings.py` with your values.
