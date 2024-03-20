@@ -11,7 +11,7 @@ To run the code in this repository, you need the following:
 
 #### Extra for WSL
 If you're on WSL, run the following commands to ensure Python works correctly:  
-`$ sudo apt update && sudo apt upgrade`  
-`$ sudo apt upgrade python3`  
-`$ sudo apt install python3-pip`  
-`$ sudo apt install python3-venv`  
+1. `$ sudo apt update && sudo apt upgrade`  
+1. `$ sudo apt upgrade python3`  
+1. `$ sudo apt install python3-pip`  
+1. `$ sudo apt install python3-venv`  
