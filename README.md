@@ -9,8 +9,7 @@ To run the code in this repository, you need the following:
 - [Redis](https://redis.io/docs/install/install-stack/docker/) installed.
 - [RabbitMQ](https://www.rabbitmq.com/docs/download) installed.
 
-<br>
-> [!IMPORTANT]
+#### Extra for WSL
 > If you're on WSL you might need to run these commands to complete your Python installation:  
 > `$ sudo apt update && sudo apt upgrade`  
 > `$ sudo apt upgrade python3`  
