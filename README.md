@@ -10,11 +10,8 @@ To run the code in this repository, you need the following:
 - [RabbitMQ](https://www.rabbitmq.com/docs/download) installed.
 
 #### Extra for WSL
-> If you're on WSL you might need to run these commands to complete your Python installation:  
-> `$ sudo apt update && sudo apt upgrade`  
-> `$ sudo apt upgrade python3`  
-> `$ sudo apt install python3-pip`  
-> `$ sudo apt install python3-venv`  
-
-
-
+If you're on WSL, run the follwing command to ensure Python works correctly:  
+`$ sudo apt update && sudo apt upgrade`  
+`$ sudo apt upgrade python3`  
+`$ sudo apt install python3-pip`  
+`$ sudo apt install python3-venv`  
