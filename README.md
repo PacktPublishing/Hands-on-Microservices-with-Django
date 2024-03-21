@@ -3,7 +3,7 @@ The book teaches you how to develop scalable applications with Django microservi
 
 #### Prerequisites
 To run the code in this repository, you need the following:
-- Linux, MacOS, or Windows 10/11 & [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install) because Celery doesn't run on Windows.
+- Linux/MacOS/Windows 10/11 & [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install) because Celery doesn't run on Windows.
 - [Python 3.11](https://www.python.org/downloads/) or later.
 - The Python packages from this [requirements.txt](https://github.com/PacktPublishing/Hands-on-Microservices-with-Django/blob/main/ch8/subscription_celery/requirements.txt) installed.
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed.
