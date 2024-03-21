@@ -1,5 +1,5 @@
 ### Welcome to the repository for the book *Hands-On Microservices with Django*.
-The book teaches you how to develop scalable applications with Django microservices using community-standard components like Celery, RabbitMQ, Redis, and Docker. This repository contains the corresponding code samples.
+The book *Hands-On Microservices with Django* teaches you how to develop scalable applications with Django microservices using community-standard components like Celery, RabbitMQ, Redis, and Docker. This repository contains the corresponding code samples.
 
 #### Prerequisites
 To run the code in this repository, you need the following:
