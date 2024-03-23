@@ -5,10 +5,10 @@ The book *Hands-On Microservices with Django* teaches you how to develop scalabl
 To run the code in this repository, you need the following:
 - Linux/MacOS/Windows 10/11 & [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install) because Celery doesn't run on Windows.
 - [Python 3.11](https://www.python.org/downloads/) or later.
-- The Python packages from this [requirements.txt](https://github.com/PacktPublishing/Hands-on-Microservices-with-Django/blob/main/ch8/subscription_celery/requirements.txt) installed.
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed.
-- [Redis](https://redis.io/docs/install/install-stack/docker/) installed.
-- [RabbitMQ](https://www.rabbitmq.com/docs/download) installed.
+- The Python packages from this [requirements.txt](https://github.com/PacktPublishing/Hands-on-Microservices-with-Django/blob/main/ch8/subscription_celery/requirements.txt).
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+- [Redis](https://redis.io/docs/install/install-stack/docker/).
+- [RabbitMQ](https://www.rabbitmq.com/docs/download).
 
 #### Extra for WSL
 If you're on WSL, run the following commands to ensure Python works correctly:  
