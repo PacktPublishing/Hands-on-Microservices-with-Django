@@ -8,7 +8,7 @@ To run the code in this repository, you need the following:
 - The Python packages from this [requirements.txt](https://github.com/PacktPublishing/Hands-on-Microservices-with-Django/blob/main/ch8/subscription_celery/requirements.txt).
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 - [Redis](https://redis.io/docs/install/install-stack/docker/) (running as Docker container).
-- [RabbitMQ](https://www.rabbitmq.com/docs/download)(running as Docker container).
+- [RabbitMQ](https://www.rabbitmq.com/docs/download) (running as Docker container).
 
 #### Extra for WSL
 If you're on WSL, run the following commands to ensure Python works correctly:  
