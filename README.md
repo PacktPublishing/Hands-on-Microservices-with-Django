@@ -1,5 +1,5 @@
 ### Welcome to the repository for the book *Hands-On Microservices with Django*.
-<img align="left" src="https://github.com/PacktPublishing/Hands-on-Microservices-with-Django/blob/main/9781835468524.jpg" alt="Book">
+![](https://github.com/PacktPublishing/Hands-on-Microservices-with-Django/blob/main/9781835468524.jpg)  
 The book [*Hands-On Microservices with Django*](https://www.packtpub.com/product/hands-on-microservices-with-django/9781835468524) teaches you how to develop scalable applications with Django microservices using community-standard components like Celery, Redis, RabbitMQ, and Docker. This repository contains the corresponding code samples.
 
 #### Prerequisites
