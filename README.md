@@ -1,6 +1,63 @@
-### Welcome to the repository for the book *Hands-On Microservices with Django*.
-![](https://github.com/PacktPublishing/Hands-on-Microservices-with-Django/blob/main/9781835468524.jpg)  
-<br>
+# Hands-On Microservices with Django
+
+<a href="https://www.packtpub.com/product/hands-on-microservices-with-django/9781835468524"><img src="https://content.packt.com/B22012/cover_image_small.jpg" alt="Book Name" height="256px" align="right"></a>
+
+This is the code repository for [Hands-On Microservices with Django](https://www.packtpub.com/product/hands-on-microservices-with-django/9781835468524), published by Packt.
+
+**Build cloud-native and reactive applications with Python using Django 5**
+
+## What is this book about?
+Are you a Django developer looking to leverage microservices to create optimized and scalable web applications? If yes, then this book is for you. With microservices, you can split an application into self-contained services, each with a specific scope running asynchronously while collectively executing processes. Written by an experienced Python developer, Hands-On Microservices with Django teaches you how to develop and deploy microservices using Django and accompanying components such as Celery and Redis.
+
+This book covers the following exciting features:
+* Understand the architecture of microservices and how Django implements it
+* Build microservices that leverage community-standard components such as Celery, RabbitMQ, and Redis
+* Test microservices and deploy them with Docker
+* Enhance the security of your microservices for production readiness
+* Boost microservice performance through caching
+* Implement best practices to design and deploy high-performing microservices
+
+If you feel this book is for you, get your [copy](https://www.amazon.com/Hands-Microservices-Django-cloud-native-applications-ebook/dp/B0CW1JN916/ref=sr_1_3?crid=K4LJ2H6WTXYO&dib=eyJ2IjoiMSJ9.TpLeLks_HmBHFmPdbtNnUdzLF-UXtCVUODw0HBAYLHo8qVb9XA_mZLak4UWtsM5mpBoUlOSCeQKFPyoj5wvA_i2qLeu9nhafvczf3PhCUDo.QeyEr3c8ab_jq3bdwn3dD8gMziMlbt4c_ZQ2uOwCYKg&dib_tag=se&keywords=Hands-On+Microservices+with+Django&qid=1711916487&s=books&sprefix=hands-on+microservices+with+django%2Cstripbooks%2C247&sr=1-3) today!
+
+<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
+alt="https://www.packtpub.com/" border="5" /></a>
+
+
+## Instructions and Navigations
+All of the code is organized into folders. For example, Chapter02.
+
+The code will look like the following:
+```
+class AddressViewSet(viewsets.ModelViewSet):
+    queryset = Address.objects.all()
+    serializer_class = AddressSerializer
+```
+
+**Following is what you need for this book:**
+This microservices and Django book is for Django developers who want to take the next step in back-end application development by adopting cloud-native microservices. Backend developers with working knowledge of Flask or other Python programming web frameworks will also benefit from this book. Basic knowledge of developing web APIs will help you get started with quickly building microservices on your own.
+
+With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
+
+### Software and Hardware List
+
+| Chapter  | Software required                   | OS required                        |
+| -------- | ------------------------------------| -----------------------------------|
+| 1-11        | Django                     | Windows, Mac OS X, and Linux |
+| 1-11        | Redis            |  |
+| 1-11        | RabbitMQ            |  |
+| 1-11        | Celery            |  |
+| 1-11        | MongoDB Cloud version            |  |
+
+### Related products <Other books you may enjoy>
+* Web Development with Django - Second Edition [[Packt]](https://www.packtpub.com/product/web-development-with-django-second-edition/9781803230603) [[Amazon]](https://www.amazon.com/Web-Development-Django-definitive-applications/dp/1803230606)
+
+* Hands-On Web Scraping with Python - Second Edition [[Packt]](https://www.packtpub.com/product/hands-on-web-scraping-with-python-second-edition/9781837636211) [[Amazon]](https://www.amazon.com/Hands-Web-Scraping-Python-Second/dp/1837636214)
+
+## Get to Know the Author
+**Tieme Woldman** works as a freelance Python developer and technical writer. As a Python developer, he builds web and data engineering applications with Django and Python data transformation packages such as pandas. As a technical writer, he has written software and user documentation for software companies such as Instruqt, Noldus Information Technology, and Rulecube. Tieme lives in the Netherlands, has a bachelor's degree in computer science, and holds several (technical) writing certifications.
+
+**Note from the author:**
+
 The book [*Hands-On Microservices with Django*](https://www.packtpub.com/product/hands-on-microservices-with-django/9781835468524) teaches you how to develop scalable applications with Django microservices using community-standard components like Celery, Redis, RabbitMQ, and Docker. This repository contains the corresponding code samples.
 
 #### Prerequisites
@@ -17,4 +74,4 @@ If you're on WSL, run the following commands to ensure Python works correctly:
 1. `$ sudo apt update && sudo apt upgrade`  
 1. `$ sudo apt upgrade python3`  
 1. `$ sudo apt install python3-pip`  
-1. `$ sudo apt install python3-venv`  
+1. `$ sudo apt install python3-venv`
