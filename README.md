@@ -18,7 +18,7 @@ Get your [copy](https://www.amazon.com/Hands-Microservices-Django-cloud-native-a
 
 ## Instructions and Navigations
 The code is organized into folders and looks like the following:
-```
+```Python
 class AddressViewSet(viewsets.ModelViewSet):
     queryset = Address.objects.all()
     serializer_class = AddressSerializer
