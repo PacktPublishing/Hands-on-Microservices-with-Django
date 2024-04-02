@@ -14,7 +14,7 @@ This book covers the following features:
 * Boost microservice performance through caching
 * Implement best practices to design and deploy high-performing microservices
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/Hands-Microservices-Django-cloud-native-applications-ebook/dp/B0CW1JN916/ref=sr_1_3?crid=K4LJ2H6WTXYO&dib=eyJ2IjoiMSJ9.TpLeLks_HmBHFmPdbtNnUdzLF-UXtCVUODw0HBAYLHo8qVb9XA_mZLak4UWtsM5mpBoUlOSCeQKFPyoj5wvA_i2qLeu9nhafvczf3PhCUDo.QeyEr3c8ab_jq3bdwn3dD8gMziMlbt4c_ZQ2uOwCYKg&dib_tag=se&keywords=Hands-On+Microservices+with+Django&qid=1711916487&s=books&sprefix=hands-on+microservices+with+django%2Cstripbooks%2C247&sr=1-3) today!
+Get your [copy](https://www.amazon.com/Hands-Microservices-Django-cloud-native-applications-ebook/dp/B0CW1JN916/ref=sr_1_3?crid=K4LJ2H6WTXYO&dib=eyJ2IjoiMSJ9.TpLeLks_HmBHFmPdbtNnUdzLF-UXtCVUODw0HBAYLHo8qVb9XA_mZLak4UWtsM5mpBoUlOSCeQKFPyoj5wvA_i2qLeu9nhafvczf3PhCUDo.QeyEr3c8ab_jq3bdwn3dD8gMziMlbt4c_ZQ2uOwCYKg&dib_tag=se&keywords=Hands-On+Microservices+with+Django&qid=1711916487&s=books&sprefix=hands-on+microservices+with+django%2Cstripbooks%2C247&sr=1-3) today!
 
 ## Instructions and Navigations
 The code is organized into folders and looks like the following:
