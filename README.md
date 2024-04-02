@@ -14,7 +14,7 @@ This book covers the following features:
 * Boost microservice performance through caching
 * Implement best practices to design and deploy high-performing microservices
 
-Get your [copy](https://www.amazon.com/dp/1835468527/ref=sr_1_2?dib=eyJ2IjoiMSJ9.ilmtAXqYx1giliIuqSMEI3bJfCZNQs79rPUsaOf8RuCBlJH9C6R_yQMO17Ghn9ZSs0NXo9Is6VWG3hLmK-YO0ewV_GAc2dFhNwx3da8I6gS4FlJ7FCFulYsbbBCG1jIPz5vMm-E4T4jzQ-jdML7kOmzw1xtxlvLUxUQq9SXIjBysvDc3v6IQLnThPsKb5n9hm3FjUPxmZwq_yvwffExn_IjmtnifAAkivXlHdA09TXI.xMurtrc4fTxRPCE6UCS5m8NPSsRdx2GzNM4d4RokfZU&dib_tag=se&keywords=Hands-On+Microservices+with+Django&qid=1712071599&s=books&sr=1-2).
+Get your [copy](https://www.amazon.in/dp/1835468527/ref=sr_1_2?crid=3R4R6U25VXVE7&dib=eyJ2IjoiMSJ9.ilmtAXqYx1giliIuqSMEIzXPHaw4T0OS_ukHv61rkslTZ9inRkhuqr2ePH5fF8WbkxovP9SkU-2RfWZkDDcBUMpv5aSA2BRCEqQedGtjhPbkO028tQU8_2lxIMTvCcZ5sbBVvlpJj91GNbBw1aq6xSiLayhEgJBamxQmTxkfna7DcDqQyHfV4MAnq_-wUAnSTWjO5R_6gUX87kFGkfMj5rdd721IDdsCnuybHXFcCP0.EaC57wOXYUFgC2lgkX0_wTZRvxRf2B1JLhKck6mKff4&dib_tag=se&keywords=Hands-On+Microservices+with+Django+tieme&qid=1712098444&sprefix=hands-on+microservices+with+django+tieme%2Caps%2C248&sr=8-2) today!
 
 ## Instructions and Navigations
 The code is organized into folders and looks like the following:
