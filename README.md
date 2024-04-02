@@ -6,9 +6,9 @@ This is the code repository for [Hands-On Microservices with Django](https://www
 
 ## What is this book about?
 <a href="https://www.packtpub.com/product/hands-on-microservices-with-django/9781835468524"><img src="https://content.packt.com/B22012/cover_image_small.jpg" alt="Book Name" height="256px" align="right"></a>
-Are you a Django developer looking to leverage microservices to create optimized and scalable web applications? If yes, then this book is for you. With microservices, you can split an application into self-contained services, each with a specific scope running asynchronously while collectively executing processes. Written by an experienced Python developer, Hands-On Microservices with Django teaches you how to develop and deploy microservices using Django and accompanying components such as Celery and Redis.
+Are you a Django developer looking to leverage microservices to create optimized and scalable web applications? If yes, then this book is for you. With microservices, you can split an application into self-contained services, each with a specific scope running asynchronously while collectively executing processes. Written by an experienced Python developer, *Hands-On Microservices with Django* teaches you how to develop and deploy microservices using Django and accompanying components such as Celery and Redis.
 
-This book covers the following exciting features:
+This book covers the following features:
 * Understand the architecture of microservices and how Django implements it
 * Build microservices that leverage community-standard components such as Celery, RabbitMQ, and Redis
 * Test microservices and deploy them with Docker
@@ -23,9 +23,7 @@ alt="https://www.packtpub.com/" border="5" /></a>
 
 
 ## Instructions and Navigations
-All of the code is organized into folders. For example, Chapter02.
-
-The code will look like the following:
+The code is organized into folders and looks like the following:
 ```
 class AddressViewSet(viewsets.ModelViewSet):
     queryset = Address.objects.all()
@@ -35,17 +33,17 @@ class AddressViewSet(viewsets.ModelViewSet):
 **Following is what you need for this book:**
 This microservices and Django book is for Django developers who want to take the next step in back-end application development by adopting cloud-native microservices. Backend developers with working knowledge of Flask or other Python programming web frameworks will also benefit from this book. Basic knowledge of developing web APIs will help you get started with quickly building microservices on your own.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
+With the following software and hardware list you can run all code files present in the book (Chapters 2-11).
 
-### Software and Hardware List
+### Software and Operating System List
 
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 1-11        | Django                     | Windows, Mac OS X, and Linux |
-| 1-11        | Redis            |  |
-| 1-11        | RabbitMQ            |  |
-| 1-11        | Celery            |  |
-| 1-11        | MongoDB Cloud version            |  |
+| 2-11        | Django                     | Windows, Mac OS X, or Linux |
+| 2-11        | Redis            |  |
+| 2-11        | RabbitMQ            |  |
+| 2-11        | Celery            |  |
+| 2-11        | MongoDB Cloud version            |  |
 
 ### Related products <Other books you may enjoy>
 * Web Development with Django - Second Edition [[Packt]](https://www.packtpub.com/product/web-development-with-django-second-edition/9781803230603) [[Amazon]](https://www.amazon.com/Web-Development-Django-definitive-applications/dp/1803230606)
