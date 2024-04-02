@@ -29,7 +29,7 @@ class AddressViewSet(viewsets.ModelViewSet):
 ```
 
 ### What you need for this book
-This microservices and Django book is for Django developers who want to take the next step in back-end application development by adopting cloud-native microservices. Backend developers with working knowledge of Flask or other Python programming web frameworks will also benefit from this book. Basic knowledge of developing web APIs will help you get started with quickly building microservices on your own.
+This book is for Django developers who want to take the next step in back-end application development by adopting cloud-native microservices. Backend developers with working knowledge of Flask or other Python programming web frameworks will also benefit from this book. Basic knowledge of developing web APIs will help you get started with quickly building microservices on your own.
 
 With the following software and hardware list you can run all code files present in the book (Chapters 2-11).
 
