@@ -36,7 +36,7 @@ With the following software and operating system list you can run all code files
 | 2-11        | RabbitMQ            |  |
 | 2-11        | Celery            |  |
 | 2-11        | MongoDB Cloud version            |  |
-* Celery only runs on Mac OS or Linux, so if you are on Windows, you will need WSL.
+\* Celery only runs on Mac OS or Linux, so if you are on Windows, you will need WSL.
 
 ### Extra for WSL
 If you're on WSL, run the following commands to ensure Python works correctly:  
