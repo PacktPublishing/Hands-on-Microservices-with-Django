@@ -1,6 +1,6 @@
 # Hands-On Microservices with Django
 
-This is the code repository for [Hands-On Microservices with Django](https://www.packtpub.com/product/hands-on-microservices-with-django/9781835468524), published by Packt.
+This is the code repository for the book [Hands-On Microservices with Django](https://www.packtpub.com/product/hands-on-microservices-with-django/9781835468524), published by Packt.
 
 ## What is this book about?
 <a href="https://www.packtpub.com/product/hands-on-microservices-with-django/9781835468524"><img src="https://content.packt.com/B22012/cover_image_small.jpg" alt="Book Name" height="256px" align="right"></a>
