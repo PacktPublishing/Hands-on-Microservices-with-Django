@@ -1,12 +1,11 @@
 # Hands-On Microservices with Django
 
-<a href="https://www.packtpub.com/product/hands-on-microservices-with-django/9781835468524"><img src="https://content.packt.com/B22012/cover_image_small.jpg" alt="Book Name" height="256px" align="right"></a>
-
 This is the code repository for [Hands-On Microservices with Django](https://www.packtpub.com/product/hands-on-microservices-with-django/9781835468524), published by Packt.
 
 **Build cloud-native and reactive applications with Python using Django 5**
 
 ## What is this book about?
+<a href="https://www.packtpub.com/product/hands-on-microservices-with-django/9781835468524"><img src="https://content.packt.com/B22012/cover_image_small.jpg" alt="Book Name" height="256px" align="right"></a>
 Are you a Django developer looking to leverage microservices to create optimized and scalable web applications? If yes, then this book is for you. With microservices, you can split an application into self-contained services, each with a specific scope running asynchronously while collectively executing processes. Written by an experienced Python developer, Hands-On Microservices with Django teaches you how to develop and deploy microservices using Django and accompanying components such as Celery and Redis.
 
 This book covers the following exciting features:
