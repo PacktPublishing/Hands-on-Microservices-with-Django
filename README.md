@@ -36,27 +36,11 @@ With the following software and hardware list you can run all code files present
 
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 2-11        | Django                     | Windows, Mac OS X, or Linux |
+| 2-11        | Django                     | Windows (WSL), Mac OS X, or Linux |
 | 2-11        | Redis            |  |
 | 2-11        | RabbitMQ            |  |
 | 2-11        | Celery            |  |
 | 2-11        | MongoDB Cloud version            |  |
-
-## Get to Know the Author
-**Tieme Woldman** works as a freelance Python developer and technical writer. As a Python developer, he builds web and data engineering applications with Django and Python data transformation packages such as pandas. As a technical writer, he has written software and user documentation for software companies such as Instruqt, Noldus Information Technology, and Rulecube. Tieme lives in the Netherlands, has a bachelor's degree in computer science, and holds several (technical) writing certifications.
-
-**Note from the author:**
-
-The book [*Hands-On Microservices with Django*](https://www.packtpub.com/product/hands-on-microservices-with-django/9781835468524) teaches you how to develop scalable applications with Django microservices using community-standard components like Celery, Redis, RabbitMQ, and Docker. This repository contains the corresponding code samples.
-
-#### Prerequisites
-To run the code in this repository, you need the following:
-- Linux/MacOS/Windows 10/11 & [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install) because Celery doesn't run on Windows.
-- [Python 3.11](https://www.python.org/downloads/) or later.
-- The Python packages from this [requirements.txt](https://github.com/PacktPublishing/Hands-on-Microservices-with-Django/blob/main/ch8/subscription_celery/requirements.txt).
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/).
-- [Redis](https://redis.io/docs/install/install-stack/docker/) (running as a Docker container).
-- [RabbitMQ](https://www.rabbitmq.com/docs/download) (running as a Docker container).
 
 #### Extra for WSL
 If you're on WSL, run the following commands to ensure Python works correctly:  
@@ -64,3 +48,6 @@ If you're on WSL, run the following commands to ensure Python works correctly:
 1. `$ sudo apt upgrade python3`  
 1. `$ sudo apt install python3-pip`  
 1. `$ sudo apt install python3-venv`
+
+## Get to Know the Author
+**Tieme Woldman** works as a freelance Python developer and technical writer. As a Python developer, he builds web and data engineering applications with Django and Python data transformation packages such as pandas. As a technical writer, he has written software and user documentation for software companies such as Instruqt, Noldus Information Technology, and Rulecube. Tieme lives in the Netherlands, has a bachelor's degree in computer science, and holds several (technical) writing certifications.
