@@ -31,7 +31,7 @@ This book is for Django developers who want to take the next step in back-end ap
 With the following software and operating system list you can run all code files present in the book (Chapters 2-11):
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 2-11        | <ol> <li>Django</li> <li>Redis</li> <li>RabbitMQ</li> <li>Celery</li> <li>MongoDB Cloud version</li> </ol> | Windows & Windows Subsystem for Linux (WSL)*, Mac OS, or Linux |
+| 2-11        | <ul> <li>Django</li> <li>Redis</li> <li>RabbitMQ</li> <li>Celery</li> <li>MongoDB Cloud version</li> </ul> | Windows & Windows Subsystem for Linux (WSL)*, Mac OS, or Linux |
 
 \* Celery only runs on Mac OS or Linux, so if you are on Windows, you will need WSL.
 
