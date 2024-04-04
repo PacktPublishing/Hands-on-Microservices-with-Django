@@ -38,7 +38,7 @@ With the following software and operating system list, you can run all code file
     </tr>
     <tr>
         <td valign="top">2-11</td>
-        <td valign="top"><ul> <li>Django</li> <li>Redis</li> <li>RabbitMQ</li> <li>Celery*</li> <li>MongoDB Cloud version</li> </ul></td>
+        <td valign="top"><ul> <li>Python</li> <li>Django</li> <li>Redis</li> <li>RabbitMQ</li> <li>Celery*</li> <li>MongoDB Cloud version</li> </ul></td>
         <td valign="top">Windows & Windows Subsystem for Linux (WSL)*, Mac OS, or Linux</td>
     </tr>
 </table>
