@@ -31,11 +31,11 @@ This book is for Django developers who want to take the next step in back-end ap
 With the following software and operating system list you can run all code files present in the book (Chapters 2-11):
 
 <table>
-    <th>
-        <td>Chapter</td>
-        <td>Software required</td>
-        <td>OS required</td>
-    </th>
+    <tr>
+        <th>Chapter</th>
+        <th>Software required</th>
+        <th>OS required</th>
+    </tr>
     <tr>
         <td valign="top">2-11</td>
         <td valign="top"><ul> <li>Django</li> <li>Redis</li> <li>RabbitMQ</li> <li>Celery</li> <li>MongoDB Cloud version</li> </ul></td>
