@@ -43,10 +43,6 @@ With the following software and operating system list you can run all code files
     </tr>
 </table>
 
-| Chapter  | Software required                   | OS required                        |
-| -------- | ------------------------------------| -----------------------------------|
-| 2-11        | <ul> <li>Django</li> <li>Redis</li> <li>RabbitMQ</li> <li>Celery</li> <li>MongoDB Cloud version</li> </ul> | Windows & Windows Subsystem for Linux (WSL)*, Mac OS, or Linux |
-
 \* Celery only runs on Mac OS or Linux, so if you are on Windows, you will need WSL.
 
 ### Extra for WSL
