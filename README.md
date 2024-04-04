@@ -32,9 +32,9 @@ With the following software and operating system list you can run all code files
 
 <table>
     <tr>
-        <th halign="left">Chapter</th>
-        <th halign="left">Software required</th>
-        <th halign="left">OS required</th>
+        <th align="left">Chapter</th>
+        <th align="left">Software required</th>
+        <th align="left">OS required</th>
     </tr>
     <tr>
         <td valign="top">2-11</td>
