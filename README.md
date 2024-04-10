@@ -1,5 +1,4 @@
 # Hands-On Microservices with Django
-## Build cloud-native and reactive applications with Python using Django 5
 
 This is the code repository for the book [Hands-On Microservices with Django](https://www.packtpub.com/product/hands-on-microservices-with-django/9781835468524), published by Packt.
 
