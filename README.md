@@ -52,5 +52,10 @@ If you're on WSL, run the following commands to ensure Python works correctly:
 1. `$ sudo apt install python3-pip`  
 1. `$ sudo apt install python3-venv`
 
+### Related products
+* Web Development with Django - Second Edition [[Packt]](https://www.packtpub.com/product/web-development-with-django-second-edition/9781803230603) [[Amazon]](https://www.amazon.com/Web-Development-Django-definitive-applications/dp/1803230606)
+
+* Hands-On Web Scraping with Python - Second Edition [[Packt]](https://www.packtpub.com/product/hands-on-web-scraping-with-python-second-edition/9781837636211) [[Amazon]](https://www.amazon.com/Hands-Web-Scraping-Python-Second/dp/1837636214)
+  
 ## Get to Know the Author
 **Tieme Woldman** works as a freelance Python developer and technical writer. As a Python developer, he builds web and data engineering applications with Django and Python data transformation packages such as pandas. As a technical writer, he has written software and user documentation for software companies such as Instruqt, Noldus Information Technology, and Rulecube. Tieme lives in the Netherlands, has a bachelor's degree in computer science, and holds several (technical) writing certifications.
