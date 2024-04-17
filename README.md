@@ -17,16 +17,16 @@ This book covers the following features:
 Get your [copy](https://www.amazon.com/Hands-Microservices-Django-cloud-native-applications/dp/1835468527/) today!
 
 ## Instructions and Navigations
-All of the code is organized into folders. For example, Chapter02.
+All of the code is organized into folders. For example, [Chapter02](https://github.com/PacktPublishing/Hands-on-Microservices-with-Django/tree/main/Chapter02).
 
 The code will look like the following:
-```
+```Python
 class AddressViewSet(viewsets.ModelViewSet):
     queryset = Address.objects.all()
     serializer_class = AddressSerializer
 ```
 
-**Following is what you need for this book:**
+**Following is what you need for this book:**  
 This microservices and Django book is for Django developers who want to take the next step in back-end application development by adopting cloud-native microservices. Backend developers with working knowledge of Flask or other Python programming web frameworks will also benefit from this book. Basic knowledge of developing web APIs will help you get started with quickly building microservices on your own.
 
 ## Software and Operating System List
